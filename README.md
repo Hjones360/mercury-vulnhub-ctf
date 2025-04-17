@@ -1,9 +1,9 @@
-# Mercury VulnHub CTF Walkthrough 🚀
+# Mercury VulnHub CTF Walkthrough 
 
-## 🎯 Objective
+##  Objective
 Conduct a penetration test on the Mercury VM from VulnHub using Kali Linux. Discover the target on the network, identify vulnerabilities, exploit them, and escalate privileges to root.
 
-## 🛠️ Tools & Techniques
+##  Tools & Techniques
 - Kali Linux
 - arp-scan
 - Nmap
@@ -13,7 +13,7 @@ Conduct a penetration test on the Mercury VM from VulnHub using Kali Linux. Disc
 - Base64 decoding
 - Privilege escalation via PATH hijacking
 
-## 🔍 Summary of Steps
+##  Summary of Steps
 
 ### 1. Network Discovery
 - Used `sudo arp-scan -l` to discover devices.
@@ -48,15 +48,15 @@ Conduct a penetration test on the Mercury VM from VulnHub using Kali Linux. Disc
 ### 7. Final Capture
 - Accessed `/root` and captured `rootflag.txt`.
 
-## 📝 Lessons Learned
+## Lessons Learned
 - Importance of proper VM networking (NAT + internal).
 - Manual enumeration when tools fail.
 - Basics of SQL injection and database dumping.
 - Privilege escalation using SUID binaries and PATH hijacking.
 
-## 🔗 Resources
+## Resources
 - [Mercury VulnHub VM](https://download.vulnhub.com/theplanets/Mercury.ova)
 - [Walkthrough Guide](https://vishnushivalalp.medium.com/the-planets-mercury-vulnhub-ctf-walkthrough-c5f15bdc24b7)
 
-## 📁 Full Walkthrough
+## Full Walkthrough
 See `docs/full-walkthrough.md` for detailed step-by-step documentation.
